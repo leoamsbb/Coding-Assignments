@@ -1,2 +1,7 @@
 *.class
 *.log
+
+/Cricket-Match-Dashboard/target/
+.bsp/
+.idea/
+project/target/
