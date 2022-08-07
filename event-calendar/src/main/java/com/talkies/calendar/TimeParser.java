@@ -10,6 +10,7 @@ import java.util.Optional;
 
 public class TimeParser {
 
+    private TimeParser() {}
     private static final List<DateTimeFormatter> timeFormatters = List.of(
             getTimeFormatter("hh:mma"),
             getTimeFormatter("h:mma"),
