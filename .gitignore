@@ -6,3 +6,4 @@
 .bsp/
 .idea/
 /Cricket-Match-Dashboard/project/target/
+.DS_Store
