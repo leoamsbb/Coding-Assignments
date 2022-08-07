@@ -2,6 +2,7 @@
 *.log
 
 /Cricket-Match-Dashboard/target/
+/event-calendar/target/
 .bsp/
 .idea/
-project/target/
+/Cricket-Match-Dashboard/project/target/
