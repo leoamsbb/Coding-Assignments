@@ -25,7 +25,8 @@ public class User implements Participant {
     }
 
     public boolean getAvailability(Duration eventDuration) {
-        return myEvents.stream().noneMatch(eventDuration::overlaps);
+        return eventDuration.within(workingHours) &&
+                myEvents.stream().noneMatch(eventDuration::overlaps);
     }
 
     public void blockCalendar(Duration eventDuration) {
